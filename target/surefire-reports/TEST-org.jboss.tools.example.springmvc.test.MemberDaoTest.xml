@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="4.605" errors="0" skipped="0" tests="4" name="org.jboss.tools.example.springmvc.test.MemberDaoTest">
+<testsuite failures="0" time="4.918" errors="0" skipped="0" tests="4" name="org.jboss.tools.example.springmvc.test.MemberDaoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/home/momo/java/jdk/jdk1.7.0_65/jre/lib/amd64"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/home/momo/java/jdk/jdk1.7.0_65/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package jboss-as:deploy"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install jboss-as:deploy"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -60,8 +60,8 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="4.17" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testFindById"/>
-  <testcase time="0.344" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testRegister"/>
-  <testcase time="0.039" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testFindAllOrderedByName"/>
-  <testcase time="0.052" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testFindByEmail"/>
+  <testcase time="4.478" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testFindById"/>
+  <testcase time="0.286" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testFindByEmail"/>
+  <testcase time="0.123" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testRegister"/>
+  <testcase time="0.031" classname="org.jboss.tools.example.springmvc.test.MemberDaoTest" name="testFindAllOrderedByName"/>
 </testsuite>

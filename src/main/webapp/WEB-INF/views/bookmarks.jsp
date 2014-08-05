@@ -9,10 +9,27 @@
 <title>书签</title>
 </head>
 <body>
-<form:form commandName="bookMarks" method="post">
-	名称:<form:input path="name"/>
-	url:<form:input path="url"/>
-	<input type="submit" value="添加"/>
+	<form:form commandName="bookMarks" method="post">
+		名称:<form:input path="name"/>
+		url:<form:input path="url"/>
+		<input type="submit" value="添加"/>
 	</form:form>
+	<br />
+	<table>
+		<thead>
+			<tr>
+				<th>name</th>
+				<th>url</th>
+			</tr>
+		</thead>
+		<tbody>
+			<c:forEach items="${bookMarksList}" var="_i">
+				<tr>
+					<td>${_i.name}</td>
+					<td>${_i.url}</td>
+				</tr>
+			</c:forEach>
+		</tbody>
+	</table>
 </body>
 </html>

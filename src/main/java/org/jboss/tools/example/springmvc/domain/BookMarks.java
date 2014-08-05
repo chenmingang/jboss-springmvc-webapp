@@ -2,9 +2,14 @@ package org.jboss.tools.example.springmvc.domain;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
+@Entity
+@Table(name="book_marks")
 public class BookMarks {
 
 	@Id
