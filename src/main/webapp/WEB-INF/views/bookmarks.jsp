@@ -18,6 +18,7 @@
 	<table>
 		<thead>
 			<tr>
+				<th>index</th>
 				<th>name</th>
 				<th>url</th>
 			</tr>
@@ -25,6 +26,7 @@
 		<tbody>
 			<c:forEach items="${bookMarksList}" var="_i">
 				<tr>
+					<td>${_i.index}</td>
 					<td>${_i.name}</td>
 					<td>${_i.url}</td>
 				</tr>
